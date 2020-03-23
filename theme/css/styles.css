@@ -1,0 +1,63 @@
+body{
+	background-color: rgb(240, 240, 240);
+	transition: 0.3s;
+}
+
+h1{
+	text-align: center;
+	color: red;
+	transition: 0.3s;
+}
+
+footer{
+	background-color: red;
+	text-align: center;
+	margin-top: 10px;
+	transition: 0.3s;
+}
+#day_id{
+	background-color: white;
+	color: black;
+	border: none;
+	width: 100px;
+	height: 30px;
+}
+
+#night_id{
+	background-color: rgb(10, 10, 10);
+	color: white;
+	border: none;
+	width: 100px;
+	height: 30px;
+}
+
+#default_id{
+	background-color: red;
+	color: white;
+	border: none;
+	width: 100px;
+	height: 30px;
+}
+
+h3{
+	color: black;
+	font-size: 200px;
+	text-align: center;
+	transition: 0.3s;
+}
+
+h2{
+	color: tomato;
+	font-size: 100px;
+	text-align: center;
+	transition: 0.3s;
+	background: -webkit-linear-gradient(red, blue, red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.container{
+	background-image: radial-gradient(circle, red, red 5%, white 5%, white 10%, red 10%, red 15%, white 15%, white 20%, red 20%, red 25%, white 25%, white 30%, red 30%, red 35%, white 35%, white 40%, red 40%, red 45%, white 45%, white 50%, red 50%, red 55%, white 55%, white 60%, red 60%, red 65%, white 65%, white 70%, red 70%, red 75%, white 75%, white 80%, red 80%, red 85%, white 85%, white 90%, red 90%, red 95%, white 95%, white);
+	height: 500px;
+	transition: 0.3s;
+}
